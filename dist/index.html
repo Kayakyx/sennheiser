@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>森海塞尔-中国在线商城</title>
+	<link rel="stylesheet" href="css/reset.min.css">
+	<link rel="stylesheet" href="css/common.min.css">
+	<link rel="stylesheet" href="css/index.min.css">
+	<script src = 'js/require.js' async="true" defer data-main = 'js/main'></script>
+</head>
+<body>
+<!-- 头部 -->
+	<div class="public-header">
+		<div class="public-container">
+			<div class="header-top">
+				<div class="right-tool">
+					<div class="login_reg">
+						<a class="login" href="login.html">登录</a>
+						<span class= "line">|</span>
+						<a class="reg" href="reg.html">注册</a>
+					</div>
+
+
+
+
+					<div class="user-car" id="user-car">
+						<a href="" class="user-car-a">
+							<span class="num">(<i class="numValue">0</i>)</span>
+						</a>
+
+						<!-- 展示购物车内商品 -->
+						<div class="user-car-product" id="user-car-product">
+							<em class="car-product-arrows"></em>
+							<h3 class="product-title">最新加入的商品</h3>
+							<ul class="product-list">
+								<!-- 假数据 -->
+
+<!-- 
+								<li class="product-item">
+									<div class="item-img"><a href=""><img src="images/IE-800-car-test.png" alt=""></a></div>
+									<div class="item-text">
+										<p class="info"><a href=""><span class="type">IE 800 旗舰入耳式耳塞测试测试测试</span><span class="price">￥4699</span></a></p>
+										<a href="" class="delete-btn">删除</a>
+									</div>
+								</li>
+								<li class="product-item">
+									<div class="item-img"><a href=""><img src="images/IE-800-car-test.png" alt=""></a></div>
+									<div class="item-text">
+										<p class="info"><a href=""><span class="type">IE 800 旗舰入耳式耳塞</span><span class="price">￥4699</span></a></p>
+										<a href="" class="delete-btn">删除</a>
+									</div>
+								</li>	
+
+ -->
+							</ul>
+							<div class="all-price">
+								<p class="summary">
+									<span class="txt txt1">共计<em class="num num1">0</em>件商品</span>
+									<span class="txt txt2">共计金额<em class="num num2">￥0</em></span>
+								</p>
+								<p class="car-btn"><a href="clearing.html" class="btn">去购物车结算</a></p>
+							</div>
+							
+						</div>
+
+					</div>
+
+
+
+
+
+
+
+					<span class="line">|</span>
+					<a href="" class="service">在线客服</a>
+					<span class="line">|</span>
+					<a href="" class="phone">服务电话<span class="phone-num">4006-3232-51</span></a>
+					<span class="line">|</span>
+					<a href="" class="user">我的账户</a>
+					<a href="" class="search">
+						<i class="search-icon"></i>
+					</a>
+				</div>
+			</div>
+			<div class="header-wrap clearfloat">
+				<div class="header-logo">
+					<a href=""></a>
+				</div>
+				<div class="header-ad">
+					<a href=""></a>
+				</div>
+				<div class="header-search">
+					<input type="search" class="search" name="search" placeholder="Momentum">
+					<a href="" class="search-btn"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- 导航 -->
+
+	<div class="public-nav">
+		<div class="public-container clearfloat">
+			<ul class="nav" id="public-nav">
+<!-- 			
+				<li class="nav-li">
+					<a href="">入耳式<i class="icon-arrow"></i></a>
+					<div class="sub-nav-box"> 
+						<div class="public-container"> 
+							<div class="left-list">
+								<ul class="ul-list">
+									<li class="item"><a href="">音乐耳机</a></li>
+									<li class="item"><a href="">手机耳机</a></li>
+									<li class="item"><a href="">运动耳机</a></li>
+									<li class="more"><a class="more-btn" href=""><span class="btn-text">浏览全部</span><i class="icon-arrow-next"></i></a></li>
+								</ul>
+							</div>
+							<div class="right-banner">
+								<ul class="ul-list">
+									<li class="item"><a href="">
+										<img src="images/nav-1-1.png" alt="">
+										<p class="info">Sennheiser IE 800入耳式旗舰耳塞 </p>
+										</a>
+
+									</li>
+									<li class="item"><a href="">
+										<img src="images/nav-1-1.png" alt="">
+										<p class="info">Sennheiser IE 800入耳式旗舰耳塞 </p>
+										</a>
+
+									</li>
+									<li class="item"><a href="">
+										<img src="images/nav-1-1.png" alt="">
+										<p class="info">Sennheiser IE 800入耳式旗舰耳塞 </p>
+										</a>
+
+									</li>
+									<li class="more"><a href="">
+										<img src="images/nav-1-4.png" alt="">
+										<p class="info">Sennheiser MX 365 Blue </p>
+										</a>
+
+									</li>
+
+ -->									
+									<!-- <li class="item"><a href="">手机耳机</a></li>
+									<li class="item"><a href="">运动耳机</a></li>
+									<li class="more"><a class="more-btn" href=""><span class="btn-text">浏览全部</span><i class="icon-arrow-next"></i></a></li> 
+								</ul>
+							</div>
+						</div>					
+					</div>
+				</li>-->
+
+<!-- 
+				<li class="nav-li">
+					<a href="">耳塞式<i class="icon-arrow"></i></a>
+				</li>
+				<li class="nav-li">
+					<a href="">头戴式<i class="icon-arrow"></i></a>
+				</li>
+				<li class="nav-li">
+					<a href="">无线<i class="icon-arrow"></i></a>
+				</li>
+				<li class="nav-li">
+					<a href="">高端<i class="icon-arrow"></i></a>
+				</li>
+				<li class="nav-li">
+					<a href="">专属耳机配件<i class="icon-arrow"></i></a>
+				</li>
+				<li class="nav-li">
+					<a href="">办公呼叫中心耳麦<i class="icon-arrow"></i></a>
+				</li>
+				<li class="nav-li">
+					<a href="">会员礼遇<i class="icon-arrow"></i></a>
+				</li>
+				<li class="nav-li">
+					<a href="">官网<i class="icon-arrow"></i></a>
+				</li>
+
+ -->
+			</ul>
+			
+		</div>
+
+	</div>
+<!-- 轮播 -->
+	<div class="index-slide" id="play">
+		<a href="" class="prev-btn"></a>
+		<a href="" class="next-btn"></a>
+
+		<ul id="play-ul">
+			<!-- <li><a href="http://www.baidu.com/"><img src="images/送耳机架2_lunbo1.jpg" alt="广告一" /></a></li>
+			<li><a href="http://www.baidu.com/"><img src="images/HD-820_lunbo2.jpg" alt="广告二" /></a></li>
+			<li><a href="http://www.baidu.com/"><img src="images/CX-sport_lunbo3.jpg" alt="广告三" /></a></li>
+			<li><a href="http://www.baidu.com/"><img src="images/gsp600-海报_lunbo4.jpg" alt="广告四" /></a></li>
+			<li><a href="http://www.baidu.com/"><img src="images/IE800S_lunbo5.jpg" alt="广告五" /></a></li>
+			<li><a href="http://www.baidu.com/"><img src="images/192_lunbo6.jpg" alt="广告六" /></a></li>
+			<li><a href="http://www.baidu.com/"><img src="images/in-ear-wireles_lunbo7.jpg" alt="广告七" /></a></li>
+			<li><a href="http://www.baidu.com/"><img src="images/送耳机架2_lunbo1.jpg" alt="广告一" /></a></li> -->
+		</ul>
+	</div>
+
+<!-- 热卖推荐 -->
+	<div class="hot-panel public-panel-style" id="hot-panel">
+		<div class="public-container">
+
+			<h3 class="title">
+				<!-- 热卖推荐 -->
+			</h3>
+
+			<ul class="goods-list clearfloat" id="hot-list">
+<!-- 
+				静态样式
+				<li class="item">
+					<a href="">
+						<img src="images/hot-free1.jpg" class="img" alt="">
+						下边
+						<div class="info-box">
+							<h6 class="name">MOMENTUM Free IN-EAR WIRELESS</h6>
+							<p class="info">畅想无线聆听</p>
+						</div>
+						悬浮
+						<div class="suspension-box">
+							<div class="img-wrap">
+								<img src="images/hot-free11.jpg" alt="">
+							</div>
+							<div class="text-wrap">
+								<p class="name">MOMENTUM Free IN-EAR WIRELESS</p>
+								<p class="name">蓝牙入耳式耳机</p>
+								<p class="price">￥<strong>1499.00</strong></p>
+							</div>
+						</div>
+					</a>
+				</li>				
+ -->
+
+			</ul>
+		</div>
+	</div>
+
+<!-- 新品专区 -->
+
+	<div class="new-panel public-panel-style" id="new-panel">
+		<div class="public-container">
+			<h3 class="title">
+				<!-- 新品专区 -->
+			</h3>
+
+			<ul class="goods-list clearfloat" id="new-list">
+<!-- 
+				静态样式
+				<li class="item">
+					<a href="">
+						<img src="images/hot-free1.jpg" class="img" alt="">
+						下边
+						<div class="info-box">
+							<h6 class="name">MOMENTUM Free IN-EAR WIRELESS</h6>
+							<p class="info">畅想无线聆听</p>
+						</div>
+						悬浮
+						<div class="suspension-box">
+							<div class="img-wrap">
+								<img src="images/hot-free11.jpg" alt="">
+							</div>
+							<div class="text-wrap">
+								<p class="name">MOMENTUM Free IN-EAR WIRELESS</p>
+								<p class="name">蓝牙入耳式耳机</p>
+								<p class="price">￥<strong>1499.00</strong></p>
+							</div>
+						</div>
+					</a>
+				</li>				
+ -->
+
+
+			</ul>
+		</div>
+	</div>
+
+
+
+<!-- 商品大盒子 -->
+
+
+<div id="goods-product">
+	<!-- 这里的内容全部动态加载 -->
+
+
+
+	<!-- 专属配件 -->
+
+<!-- 		<div class="parts-panel public-panel-style public-parts-style" id="parts-panel">
+			<div class="public-container">
+				<h3 class="title">
+					<a href="" class="more-btn">更多>></a>
+					专属配件
+				</h3>
+				
+				<div class="product-wrap clearfloat">
+					<div class="big-product-box">
+						<a href="">
+							<img src="images/peijian1.jpg" alt="">
+							<div class="info-box">
+								<h6 class="name"><span class="en">IE 80S</span>  智能线控</h6>
+								<p class="price">￥<strong>599.00</strong></p>
+							</div>
+						</a>
+					</div>
+					<div class="small-product-box">
+						<ul class="small-product-list">
+
+
+
+							<li class="item">
+								<div class="img-wrap">
+
+									<div class="slide-viewport">
+										<ul class="slide">
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-001-d.png" alt=""></a>
+											</li>
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-007-a.png" alt=""></a>
+											</li>
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-002-b.png" alt=""></a>
+											</li>
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-003-c.png" alt=""></a>
+											</li>										
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-001-d.png" alt=""></a>
+											</li>
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-007-a.png" alt=""></a>
+											</li>
+
+										</ul>
+									</div>
+									<a href="javascript:;" class="prev-btn"></a>
+									<a href="javascript:;" class="next-btn"></a>
+								</div>
+								<div class="text-wrap">
+									<a href="">
+										<h4 class="name">1In-Ear/CX3.00/CX5.00（M号）耳垫</h4>
+										<p class="price">￥<strong>28.00</strong></p>
+									</a>
+								</div>
+							</li>
+
+
+							<li class="item item4">
+								<div class="img-wrap">
+
+									<div class="slide-viewport">
+										<ul class="slide">
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-001-d.png" alt=""></a>
+											</li>
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-007-a.png" alt=""></a>
+											</li>
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-002-b.png" alt=""></a>
+											</li>
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-003-c.png" alt=""></a>
+											</li>										
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-001-d.png" alt=""></a>
+											</li>
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-007-a.png" alt=""></a>
+											</li>
+
+										</ul>
+									</div>
+									<a href="javascript:;" class="prev-btn"></a>
+									<a href="javascript:;" class="next-btn"></a>
+								</div>
+								<div class="text-wrap">
+									<a href="">
+										<h4 class="name">2In-Ear/CX3.00/CX5.00（M号）耳垫</h4>
+										<p class="price">￥<strong>28.00</strong></p>
+									</a>
+								</div>
+							</li>
+
+
+						</ul>
+					</div>
+
+				</div>
+				
+			</div>
+		</div>
+ -->
+
+	<!-- 外出便携 -->
+<!-- 
+		<div class="parts-panel public-panel-style public-parts-style" id="parts-panel">
+			<div class="public-container">
+				<h3 class="title">
+					<a href="" class="more-btn">更多>></a>
+					外出便携
+				</h3>
+				
+				<div class="product-wrap clearfloat">
+					<div class="big-product-box">
+						<a href="">
+							<img src="images/peijian1.jpg" alt="">
+							<div class="info-box">
+								<h6 class="name"><span class="en">IE 80S</span>  智能线控</h6>
+								<p class="price">￥<strong>599.00</strong></p>
+							</div>
+						</a>
+					</div>
+					<div class="small-product-box">
+						<ul class="small-product-list">
+							<li class="item item1">
+								<div class="img-wrap">
+									 img视窗 
+									<div class="slide-viewport">
+										<ul class="slide">
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-001-d.png" alt=""></a>
+											</li>
+
+										</ul>
+									</div>
+									<a href="" class="prev-btn"></a>
+									<a href="" class="next-btn"></a>
+								</div>
+								<div class="text-wrap">
+									<a href="">
+										<h4 class="name">In-Ear/CX3.00/CX5.00（M号）耳垫</h4>
+										<p class="price">￥<strong>28.00</strong></p>
+									</a>
+								</div>
+							</li>
+
+							<li class="item item2">
+								<div class="img-wrap">
+									 img视窗 
+									<div class="slide-viewport">
+										<ul class="slide">
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-001-d.png" alt=""></a>
+											</li>
+
+										</ul>
+									</div>
+									 <a href="" class="prev-btn"></a>
+									<a href="" class="next-btn"></a> 
+								</div>
+								<div class="text-wrap">
+									<a href="">
+										<h4 class="name">In-Ear/CX3.00/CX5.00（M号）耳垫</h4>
+										<p class="price">￥<strong>28.00</strong></p>
+									</a>
+								</div>
+							</li>
+							<li class="item item3">
+								<div class="img-wrap">
+
+									<div class="slide-viewport">
+										<ul class="slide">
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-001-d.png" alt=""></a>
+											</li>
+
+										</ul>
+									</div>
+
+								</div>
+								<div class="text-wrap">
+									<a href="">
+										<h4 class="name">In-Ear/CX3.00/CX5.00（M号）耳垫</h4>
+										<p class="price">￥<strong>28.00</strong></p>
+									</a>
+								</div>
+							</li> 
+
+							<li class="item item">
+								<div class="img-wrap">
+
+									<div class="slide-viewport">
+										<ul class="slide">
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-001-d.png" alt=""></a>
+											</li>
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-007-a.png" alt=""></a>
+											</li>
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-002-b.png" alt=""></a>
+											</li>
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-003-c.png" alt=""></a>
+											</li>										
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-001-d.png" alt=""></a>
+											</li>
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-007-a.png" alt=""></a>
+											</li>
+
+										</ul>
+									</div>
+									<a href="" class="prev-btn"></a>
+									<a href="" class="next-btn"></a>
+								</div>
+								<div class="text-wrap">
+									<a href="">
+										<h4 class="name">In-Ear/CX3.00/CX5.00（M号）耳垫</h4>
+										<p class="price">￥<strong>28.00</strong></p>
+									</a>
+								</div>
+							</li>
+
+						</ul>
+					</div>
+
+				</div>
+				
+			</div>
+		</div>
+
+
+
+	<!-- 无线蓝牙 -->
+
+<!--
+		<div class="parts-panel public-panel-style public-parts-style" id="parts-panel">
+			<div class="public-container">
+				<h3 class="title">
+					<a href="" class="more-btn">更多>></a>
+					无线蓝牙
+				</h3>
+				
+				<div class="product-wrap clearfloat">
+					<div class="big-product-box">
+						<a href="">
+							<img src="images/peijian1.jpg" alt="">
+							<div class="info-box">
+								<h6 class="name"><span class="en">IE 80S</span>  智能线控</h6>
+								<p class="price">￥<strong>599.00</strong></p>
+							</div>
+						</a>
+					</div>
+					<div class="small-product-box">
+						<ul class="small-product-list">
+							<li class="item item1">
+								<div class="img-wrap">
+									<!-- img视窗 
+									<div class="slide-viewport">
+										<ul class="slide">
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-001-d.png" alt=""></a>
+											</li>
+
+										</ul>
+									</div>
+									<a href="" class="prev-btn"></a>
+									<a href="" class="next-btn"></a>
+								</div>
+								<div class="text-wrap">
+									<a href="">
+										<h4 class="name">In-Ear/CX3.00/CX5.00（M号）耳垫</h4>
+										<p class="price">￥<strong>28.00</strong></p>
+									</a>
+								</div>
+							</li>
+
+							<li class="item item2">
+								<div class="img-wrap">
+									<!-- img视窗 
+									<div class="slide-viewport">
+										<ul class="slide">
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-001-d.png" alt=""></a>
+											</li>
+
+										</ul>
+									</div>
+									<!-- <a href="" class="prev-btn"></a>
+									<a href="" class="next-btn"></a> 
+								</div>
+								<div class="text-wrap">
+									<a href="">
+										<h4 class="name">In-Ear/CX3.00/CX5.00（M号）耳垫</h4>
+										<p class="price">￥<strong>28.00</strong></p>
+									</a>
+								</div>
+							</li>
+							<li class="item item3">
+								<div class="img-wrap">
+									<!-- img视窗 
+									<div class="slide-viewport">
+										<ul class="slide">
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-001-d.png" alt=""></a>
+											</li>
+
+										</ul>
+									</div>
+									<!-- <a href="" class="prev-btn"></a>
+									<a href="" class="next-btn"></a> 
+								</div>
+								<div class="text-wrap">
+									<a href="">
+										<h4 class="name">In-Ear/CX3.00/CX5.00（M号）耳垫</h4>
+										<p class="price">￥<strong>28.00</strong></p>
+									</a>
+								</div>
+							</li>
+
+							<li class="item item">
+								<div class="img-wrap">
+									<!-- img视窗 
+									<div class="slide-viewport">
+										<ul class="slide">
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-001-d.png" alt=""></a>
+											</li>
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-007-a.png" alt=""></a>
+											</li>
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-002-b.png" alt=""></a>
+											</li>
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-003-c.png" alt=""></a>
+											</li>										
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-001-d.png" alt=""></a>
+											</li>
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-007-a.png" alt=""></a>
+											</li>
+
+										</ul>
+									</div>
+									<a href="" class="prev-btn"></a>
+									<a href="" class="next-btn"></a>
+								</div>
+								<div class="text-wrap">
+									<a href="">
+										<h4 class="name">In-Ear/CX3.00/CX5.00（M号）耳垫</h4>
+										<p class="price">￥<strong>28.00</strong></p>
+									</a>
+								</div>
+							</li>
+
+						</ul>
+					</div>
+
+				</div>
+				
+			</div>
+		</div>
+
+-->
+
+
+	<!-- 游戏竞技 -->
+
+<!--	
+		<div class="parts-panel public-panel-style public-parts-style" id="parts-panel">
+			<div class="public-container">
+				<h3 class="title">
+					<a href="" class="more-btn">更多>></a>
+					游戏竞技
+				</h3>
+				
+				<div class="product-wrap clearfloat">
+					<div class="big-product-box">
+						<a href="">
+							<img src="images/peijian1.jpg" alt="">
+							<div class="info-box">
+								<h6 class="name"><span class="en">IE 80S</span>  智能线控</h6>
+								<p class="price">￥<strong>599.00</strong></p>
+							</div>
+						</a>
+					</div>
+					<div class="small-product-box">
+						<ul class="small-product-list">
+							<li class="item item1">
+								<div class="img-wrap">
+									<!-- img视窗
+									<div class="slide-viewport">
+										<ul class="slide">
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-001-d.png" alt=""></a>
+											</li>
+
+										</ul>
+									</div>
+									<a href="" class="prev-btn"></a>
+									<a href="" class="next-btn"></a>
+								</div>
+								<div class="text-wrap">
+									<a href="">
+										<h4 class="name">In-Ear/CX3.00/CX5.00（M号）耳垫</h4>
+										<p class="price">￥<strong>28.00</strong></p>
+									</a>
+								</div>
+							</li>
+
+							<li class="item item2">
+								<div class="img-wrap">
+									<!-- img视窗
+									<div class="slide-viewport">
+										<ul class="slide">
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-001-d.png" alt=""></a>
+											</li>
+
+										</ul>
+									</div>
+									<!-- <a href="" class="prev-btn"></a>
+									<a href="" class="next-btn"></a> 
+								</div>
+								<div class="text-wrap">
+									<a href="">
+										<h4 class="name">In-Ear/CX3.00/CX5.00（M号）耳垫</h4>
+										<p class="price">￥<strong>28.00</strong></p>
+									</a>
+								</div>
+							</li>
+							<li class="item item3">
+								<div class="img-wrap">
+									<!-- img视窗 
+									<div class="slide-viewport">
+										<ul class="slide">
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-001-d.png" alt=""></a>
+											</li>
+
+										</ul>
+									</div>
+									<!-- <a href="" class="prev-btn"></a>
+									<a href="" class="next-btn"></a> 
+								<div class="text-wrap">
+									<a href="">
+										<h4 class="name">In-Ear/CX3.00/CX5.00（M号）耳垫</h4>
+										<p class="price">￥<strong>28.00</strong></p>
+									</a>
+								</div>
+							</li>
+
+							<li class="item item">
+								<div class="img-wrap">
+									<!-- img视窗 
+									<div class="slide-viewport">
+										<ul class="slide">
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-001-d.png" alt=""></a>
+											</li>
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-007-a.png" alt=""></a>
+											</li>
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-002-b.png" alt=""></a>
+											</li>
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-003-c.png" alt=""></a>
+											</li>										
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-0074-001-d.png" alt=""></a>
+											</li>
+
+											<li class="slide-item">
+												<a href=""><img src="images/peijian-2150-007-a.png" alt=""></a>
+											</li>
+
+										</ul>
+									</div>
+									<a href="" class="prev-btn"></a>
+									<a href="" class="next-btn"></a>
+								</div>
+								<div class="text-wrap">
+									<a href="">
+										<h4 class="name">In-Ear/CX3.00/CX5.00（M号）耳垫</h4>
+										<p class="price">￥<strong>28.00</strong></p>
+									</a>
+								</div>
+							</li>
+
+						</ul>
+					</div>
+
+				</div>
+				
+			</div>
+		</div>
+
+-->
+
+</div>
+
+
+
+
+<!-- 新闻动态 -->
+
+	<div class="news-panel">
+		<div class="public-container">
+			<h3 class="news-title">
+           		<span class="name">新闻动态</span>
+            	<a class="more-btn" href="">更多>></a>
+        	</h3>
+        	<!-- 第一个 -->
+			<ul id="newsList" class="news-list clearfloat">
+<!-- 			
+					样式一
+					<li>
+                    <div class="img-wrap">
+                        <a href="">
+                            <img src="images/news-1.jpg" alt="">
+                            <div class="bg bg1"></div>
+                        </a>
+                    </div>
+                    <div class="text-wrap">
+                        <div class="text-inner">
+                            <p class="name"><a href="">绝色莫文蔚 | 从出道开始，她便无可替代</a> </p>
+                            <p class="time">2018-10-09 14:51 </p>
+                            <p class="text">
+                                从出道开始，她便无可替代 
+                            </p>
+                            <p class="more"><a href=""> more >></a></p>
+                        </div>
+                    </div>
+                </li>
+                样式二
+				<li>
+                    <div class="text-wrap">
+                        <div class="text-inner">
+                            <p class="name"><a href="">绝色莫文蔚 | 从出道开始，她便无可替代</a> </p>
+                            <p class="time">2018-10-09 14:51 </p>
+                            <p class="text">
+                                从出道开始，她便无可替代 
+                            </p>
+                            <p class="more"><a href=""> more >></a></p>
+                    	</div>
+                    </div>
+                    <div class="img-wrap">
+                        <a href="" style="right: 0">
+                            <img src="images/news-1.jpg" alt="">
+                            <div class="bg bg2"></div>
+                        </a>
+                    </div>
+                </li> 
+ -->
+
+
+       		</ul>
+		</div>
+	</div>
+
+
+
+
+
+<!-- 尾部 -->
+
+	<div class="public-footer">
+		<div class="footer-wrap">
+			<div class="public-container clearfloat">
+				<dl class="help-dl">
+					<dt><span class="line">|</span>新手指南</dt>
+					<dd><a href="">会员注册</a></dd>
+					<dd><a href="">下单帮助</a></dd>
+					<dd><a href="">订单状态</a></dd>
+					<dd><a href="">积分说明</a></dd>
+				</dl>
+				<dl class="help-dl">
+					<dt><span class="line">|</span>支付方式</dt>
+					<dd><a href="">支付宝</a></dd>
+					<dd><a href="">网上银行</a></dd>
+					<dd><a href="">银行转账</a></dd>
+				</dl>
+				<dl class="help-dl">
+					<dt><span class="line">|</span>配送方式</dt>
+					<dd><a href="">配送方式</a></dd>
+					<dd><a href="">验货与签收</a></dd>
+					<dd><a href="">物流查询</a></dd>
+				</dl>
+				<dl class="help-dl">
+					<dt><span class="line">|</span>售后服务</dt>
+					<dd><a href="">拒绝假货</a></dd>
+					<dd><a href="">售后地址</a></dd>
+					<dd><a href="">配件售后</a></dd>
+				</dl>
+				<div class='help-contact'>
+					<a href="" class="help-service">
+						<i class="service-icon"></i>
+						<span class="txt">在线客服</span>
+					</a>
+					<p class="text">
+						周一至周五:9:00-18:00 <br>
+						服务热线：
+					</p>
+					<p class="number">4006-3232-51</p>
+				</div>
+				<ul class="code">
+					<li>
+						<img src="images/weixin.jpg" alt="二维码">
+						<span class="desc">微信</span>
+					</li>
+					<li>
+						<img src="images/share-weixin-01.jpg" alt="二维码">
+						<span class="desc">官方微信</span>
+					</li>
+					<li>
+						<img src="images/code-weibo.png" alt="二维码">
+						<span class="desc">官方微博</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer-aside">
+			<div class="public-container">
+				<div class="footer-logo"><a href=""></a></div>
+				<p class="copyright">
+					<a href="">关于Sennheiser</a> | <a href="">帮助中心</a> | <br>
+					森海塞尔中国在线商城由森海塞尔电子(北京)有限公司授权双齐国际贸易（上海）有限公司负责运营管理 <br>
+					2018 , all rights reserved 京ICP备 18017514号 <br>
+					© 2010-2018 , 森海塞尔电子(北京)有限公司. <a href="">京公网安备11010502006893</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- 固定在右下角的客服按钮 -->
+
+	<div class="service-box">
+		<a class="service-btn" href="">
+			
+			<img src="images/kefu.png" alt="">
+		</a>
+
+	</div>
+
+
+
+</body>
+</html>

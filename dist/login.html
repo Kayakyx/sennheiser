@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+
+	<link rel="stylesheet" href="css/reset.min.css">
+	<link rel="stylesheet" href="css/common.min.css">
+	<link rel="stylesheet" href="css/reg.min.css">
+	<script src = 'js/require.js' async="true" defer data-main = 'js/main_reg'></script>
+
+</head>
+<body>
+<!-- 头部 -->
+	<div class="public-header">
+		<div class="public-container">
+			<!-- <div class="header-top">
+
+			</div>
+ -->		<div class="header-wrap clearfloat">
+				<div class="header-logo">
+					<a href="index.html"></a>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+<!-- 注册内容 -->
+
+	<div class="reg-wrap  login-wrap">
+		
+		<div class="public-container">
+
+
+			<div class="user-form-box logo-box">
+	            <h4 class="h4-title">账户登录</h4>
+	            <ul class="form-list">
+	                <li>
+	                    <div class="item-wrap error">
+	                        <input class="input-text" placeholder="*手机/邮箱/账号名" value="" id="username" type="text">
+	                        <i class="icon"></i>
+	                    </div>
+	                </li>
+	                <li>
+	                    <div class="item-wrap error">
+	                        <input class="input-text" placeholder="*密码" value="" id="password" type="password">
+	                        <i class="icon"></i>
+	                    </div>
+	                </li>
+	                <li>
+	                    <div class="item-wrap yzm-box error">
+	                        <input class="input-text" placeholder="*验证码" value="" id="txtYXYZM" type="text">
+	                        <i class="icon"></i>
+	                    </div>
+	                    <div class="yzm-img">
+	                        <a href="#" id="yzm-code">
+	                        	<!-- <img id="imgcode" alt="验证码" width="188" height="46" src=""> -->
+	                        	<!-- s9029d -->
+	                        </a>
+	                    </div>
+	                </li>
+	            </ul>
+
+	            <div class="for-list-tool">
+	                <label class="memory"><input type="checkbox">自动登录</label>
+	                <a class="forget color-primary" href="">忘记密码</a>
+	            </div>
+	            <div class="btn-box">
+	                <a class="button-default blue" href="javascript:void(0);" id="login">登录</a>
+	                <a class="button-default phone-reg" href="reg.html">手机快速注册</a>
+	            </div>
+
+	            <aside class="other-login">
+	                <label class="label-text">快捷登录：</label>
+	                <a id="btnWXLogin" class="login-item" href=""><i class="icon-logo-wx"></i></a>
+	                <a id="btnQQLogin" class="login-item" href="" ><i class="icon-logo-qq"></i></a>
+	                 <a id="btnAlipay" class="login-item" href="" "><i class="icon-logo-zhi"></i></a>
+	  
+	            </aside>
+
+	        </div>
+
+
+
+		</div>
+	
+	</div>
+
+
+
+
+
+
+
+
+<!-- 尾部 -->
+
+	<div class="public-footer">
+		<div class="footer-aside">
+			<div class="public-container clearfloat">
+				<!-- <div class="footer-logo"><a href=""></a></div> -->
+				<p class="copyright">
+					<a href="">关于Sennheiser</a> | <a href="">帮助中心</a> | <br>
+					森海塞尔中国在线商城由森海塞尔电子(北京)有限公司授权双齐国际贸易（上海）有限公司负责运营管理 <br>
+					2018 , all rights reserved 京ICP备 18017514号 <br>
+					© 2010-2018 , 森海塞尔电子(北京)有限公司. <a href="">京公网安备11010502006893</a>
+				</p>
+
+				<ul class="code">
+					<li>
+						<img src="images/weixin.jpg" alt="二维码">
+						<span class="desc">微信</span>
+					</li>
+					<li>
+						<img src="images/share-weixin-01.jpg" alt="二维码">
+						<span class="desc">官方微信</span>
+					</li>
+					<li>
+						<img src="images/code-weibo.png" alt="二维码">
+						<span class="desc">官方微博</span>
+					</li>
+				</ul>
+
+
+			</div>
+		</div>
+	</div>
+
+	<!-- 固定在右下角的客服按钮 -->
+<!-- 
+	<div class="service-box">
+		<a class="service-btn" href="">
+			
+			<img src="images/kefu.png" alt="">
+		</a>
+
+	</div>
+
+ -->
+
+<!-- 弹窗 -->
+
+	<div class="alert-bg"></div>
+
+	<div class="alert" id="alert">
+		<div class="alert-title">
+			<a class="close " href="javascript:;"></a>信息
+		</div>
+		<div class="alert-content"><span class="txt">验证码不正确验</span></div>
+
+		<div class="alert-btn"><a class="alert-btn-a">确定</a></div>
+	</div>
+	
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+.goodslistBox .page-list {
+  padding: 28px 0; }
+  .goodslistBox .page-list .list-side {
+    float: left;
+    width: 186px;
+    margin-right: 25px; }
+    .goodslistBox .page-list .list-side .list-side-header {
+      font-size: 14px;
+      font-weight: bold;
+      color: #0a0a0a;
+      height: 46px;
+      line-height: 46px; }
+      .goodslistBox .page-list .list-side .list-side-header > a {
+        display: inline;
+        color: inherit; }
+        .goodslistBox .page-list .list-side .list-side-header > a:hover {
+          text-decoration: underline; }
+    .goodslistBox .page-list .list-side .h4-title {
+      font-size: 14px;
+      font-weight: bold;
+      color: #0a0a0a;
+      height: 36px;
+      line-height: 36px;
+      border-bottom: 1px solid #e8e8e8; }
+    .goodslistBox .page-list .list-side .list-filter .filter-item {
+      float: left; }
+      .goodslistBox .page-list .list-side .list-filter .filter-item > a {
+        font-size: 14px;
+        color: #0a0a0a;
+        line-height: 30px;
+        margin: 0 10px; }
+        .goodslistBox .page-list .list-side .list-filter .filter-item > a:hover {
+          text-decoration: underline; }
+    .goodslistBox .page-list .list-side .filter-price-box {
+      padding: 10px 0; }
+      .goodslistBox .page-list .list-side .filter-price-box > input {
+        display: inline-block;
+        width: 60px;
+        height: 27px;
+        line-height: 25px;
+        padding: 0 5px; }
+    .goodslistBox .page-list .list-side .filter-price-btn > a {
+      display: inline-block;
+      color: #fff;
+      background: #0092d3;
+      padding: 0 22px;
+      height: 26px;
+      line-height: 26px;
+      text-align: center;
+      border: 1px solid #0092d3; }
+      .goodslistBox .page-list .list-side .filter-price-btn > a:hover {
+        background: #069ee1; }
+  .goodslistBox .page-list .list-box {
+    float: left;
+    width: 989px; }
+    .goodslistBox .page-list .list-box .crumbs-box {
+      height: 46px;
+      line-height: 46px;
+      font-size: 14px;
+      margin-bottom: 15px; }
+      .goodslistBox .page-list .list-box .crumbs-box .right-tool {
+        float: right; }
+        .goodslistBox .page-list .list-box .crumbs-box .right-tool > select {
+          width: 197px;
+          height: 40px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          line-height: 100%;
+          border: 1px solid #000;
+          cursor: pointer; }
+    .goodslistBox .page-list .list-box .productList .list-item {
+      float: left;
+      width: 241px;
+      height: 370px;
+      margin-right: 6px; }
+      .goodslistBox .page-list .list-box .productList .list-item > .wrap-a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 1px solid transparent; }
+        .goodslistBox .page-list .list-box .productList .list-item > .wrap-a .enter-a {
+          display: block; }
+        .goodslistBox .page-list .list-box .productList .list-item > .wrap-a:hover {
+          border: 1px solid #0094d6;
+          box-shadow: 2px 2px 2px rgba(214, 214, 214, 0.7); }
+        .goodslistBox .page-list .list-box .productList .list-item > .wrap-a .img-wrap {
+          width: 237px;
+          height: 237px;
+          margin: 0 auto; }
+          .goodslistBox .page-list .list-box .productList .list-item > .wrap-a .img-wrap img {
+            width: 100%;
+            height: 100%; }
+        .goodslistBox .page-list .list-box .productList .list-item > .wrap-a:hover .cart-box .add-cart {
+          display: block; }
+        .goodslistBox .page-list .list-box .productList .list-item > .wrap-a .text-wrap {
+          padding: 10px 25px;
+          /* .cart-box{
+								
+								.add-cart{
+									// display: block;
+									display: none;
+									color: #0085bf;
+									font-size: 14px;
+							
+									.icon-cart{
+										display: inline-block;
+										vertical-align: middle;
+										margin-right: 5px;
+										margin-top: -3px;
+										width: 26px;
+										height: 24px;
+										background: url(../images/icon-cart-list.png);
+							
+									}
+								}
+							
+							
+							} */ }
+          .goodslistBox .page-list .list-box .productList .list-item > .wrap-a .text-wrap .name {
+            font-size: 14px;
+            color: #000;
+            height: 36px;
+            line-height: 18px;
+            font-family: "microsoft yahei";
+            white-space: normal;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical; }
+          .goodslistBox .page-list .list-box .productList .list-item > .wrap-a .text-wrap .tool {
+            height: 26px;
+            line-height: 26px;
+            margin-bottom: 13px; }
+            .goodslistBox .page-list .list-box .productList .list-item > .wrap-a .text-wrap .tool .price {
+              font-size: 12px;
+              color: #0092d3;
+              font-family: "microsoft yahei"; }
+              .goodslistBox .page-list .list-box .productList .list-item > .wrap-a .text-wrap .tool .price > strong {
+                font-weight: normal;
+                font-size: 18px; }
+            .goodslistBox .page-list .list-box .productList .list-item > .wrap-a .text-wrap .tool .number {
+              float: right;
+              font-size: 14px;
+              color: #000; }
+              .goodslistBox .page-list .list-box .productList .list-item > .wrap-a .text-wrap .tool .number .num {
+                font-style: normal; }
+        .goodslistBox .page-list .list-box .productList .list-item > .wrap-a .cart-box {
+          padding: 0px 25px; }
+          .goodslistBox .page-list .list-box .productList .list-item > .wrap-a .cart-box .add-cart {
+            display: none;
+            color: #0085bf;
+            font-size: 14px;
+            cursor: pointer;
+            cursor: head; }
+            .goodslistBox .page-list .list-box .productList .list-item > .wrap-a .cart-box .add-cart .icon-cart {
+              display: inline-block;
+              vertical-align: middle;
+              margin-right: 5px;
+              margin-top: -3px;
+              width: 26px;
+              height: 24px;
+              background: url(../images/icon-cart-list.png); }

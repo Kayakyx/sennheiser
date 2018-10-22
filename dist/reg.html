@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+
+	<link rel="stylesheet" href="css/reset.min.css">
+	<link rel="stylesheet" href="css/common.min.css">
+	<link rel="stylesheet" href="css/reg.min.css">
+	<script src = 'js/require.js' async="true" defer data-main = 'js/main_reg'></script>
+
+</head>
+<body>
+<!-- 头部 -->
+	<div class="public-header">
+		<div class="public-container">
+			<!-- <div class="header-top">
+
+			</div>
+ -->		<div class="header-wrap clearfloat">
+				<div class="header-logo">
+					<a href="index.html"></a>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+<!-- 注册内容 -->
+
+	<div class="reg-wrap">
+		
+		<div class="public-container">
+
+
+
+
+			<div class="user-form-box logo-box register">
+	            <h4 class="h4-title">
+	                快速注册，领取新人礼包
+	                <div class="right-tool">
+	                    已是会员 <a class="color-primary" href="login.html"> 去登录 &gt;</a>
+	                </div>
+	            </h4>
+	            <ul class="form-list">
+	                <li>
+	                    <div class="item-wrap">
+	                        <label class="label-text">*手机号：</label>
+	                   		<input class="input-text" placeholder="建议常用的手机" value="" id="txtCellPhone" type="text">
+	                        <i class="icon"></i>
+
+	                    </div>
+	                </li>
+	                <li>
+	                    <div class="item-wrap yzm-box">
+	                        <label class="label-text">*验证码：</label>
+	                        <input class="input-text" placeholder="*验证码" value="" id="txtYXYZM" type="text">
+	                        <i class="icon"></i>
+	                    </div>
+	                    <div class="yzm-img small">
+	                        <a href="#" id="yzm-code"><!-- <img id="imgcode" alt="验证码" width="148" height="46" src="" "> --><!--s9029d--></a>
+	                    </div>
+	           
+	                </li>
+	                <li>
+	                    <div class="item-wrap phone">
+	                        <label class="label-text">*手机验证码：</label>
+	                        <input class="input-text" placeholder="请输入手机验证码" value="" id="txtYZM" type="text">
+	                        <i class="icon"></i>
+	                    </div>
+	                    <a class="get-code-btn" id="getZYM" href="javascript:void(0);">获取验证码</a>
+	                </li>
+	  
+
+	                <li>
+	                    <div class="item-wrap">
+	                        <label class="label-text">*设置密码：</label>
+	                        <input class="input-text" placeholder="建议最少两种字符组合" value="" id="psw" type="password">
+	                        <i class="icon"></i>
+	                    </div>
+	                </li>
+	                <li>
+	                    <div class="item-wrap">
+	                        <label class="label-text">"*确认密码：</label>
+	                        <input class="input-text" placeholder="请再次输入密码" value="" id="repassword" type="password">
+	                        <i class="icon"></i>
+	                    </div>
+	                </li>
+	            </ul>
+	            <div class="for-list-tool">
+	                <label class="memory"><input type="checkbox" id="ck">我已经认真阅读<a href="">《用户服务协议》</a>并完全同意协议中的条款</label>
+	            </div>
+	            <div class="btn-box">
+	                <a class="button-default blue" href="javascript:void(0);" id="register">立即注册，领取礼包</a>
+	            </div>
+
+
+	        </div>
+
+
+
+
+
+
+
+
+
+		</div>
+	
+	</div>
+
+
+
+
+
+
+
+
+<!-- 尾部 -->
+
+	<div class="public-footer">
+		<div class="footer-aside">
+			<div class="public-container clearfloat">
+				<!-- <div class="footer-logo"><a href=""></a></div> -->
+				<p class="copyright">
+					<a href="">关于Sennheiser</a> | <a href="">帮助中心</a> | <br>
+					森海塞尔中国在线商城由森海塞尔电子(北京)有限公司授权双齐国际贸易（上海）有限公司负责运营管理 <br>
+					2018 , all rights reserved 京ICP备 18017514号 <br>
+					© 2010-2018 , 森海塞尔电子(北京)有限公司. <a href="">京公网安备11010502006893</a>
+				</p>
+
+				<ul class="code">
+					<li>
+						<img src="images/weixin.jpg" alt="二维码">
+						<span class="desc">微信</span>
+					</li>
+					<li>
+						<img src="images/share-weixin-01.jpg" alt="二维码">
+						<span class="desc">官方微信</span>
+					</li>
+					<li>
+						<img src="images/code-weibo.png" alt="二维码">
+						<span class="desc">官方微博</span>
+					</li>
+				</ul>
+
+
+			</div>
+		</div>
+	</div>
+
+	<!-- 固定在右下角的客服按钮 -->
+<!-- 
+	<div class="service-box">
+		<a class="service-btn" href="">
+			
+			<img src="images/kefu.png" alt="">
+		</a>
+
+	</div>
+
+ -->
+
+
+<!-- 弹窗 -->
+
+	<div class="alert-bg"></div>
+
+	<div class="alert" id="alert">
+		<div class="alert-title">
+			<a class="close " href="javascript:;"></a>信息
+		</div>
+		<div class="alert-content"><span class="txt"><!-- 验证码不正确验 --></span></div>
+
+		<div class="alert-btn"><a class="alert-btn-a">确定</a></div>
+	</div>
+	
+
+
+
+
+</body>
+</html>

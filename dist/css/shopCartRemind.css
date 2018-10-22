@@ -1,0 +1,51 @@
+.content-box .page-cart .add-cart-info {
+  width: 355px;
+  margin: 0 auto;
+  padding: 70px 0 100px 0;
+  text-align: center; }
+  .content-box .page-cart .add-cart-info .icon-info-ok {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px auto;
+    background: url(../images/icon-success.png) no-repeat; }
+  .content-box .page-cart .add-cart-info .p-text {
+    font-size: 14px;
+    color: #000000;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 30px; }
+  .content-box .page-cart .add-cart-info .tool-btn-box > .button-default {
+    margin-bottom: 10px;
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 14px;
+    text-align: center; }
+    .content-box .page-cart .add-cart-info .tool-btn-box > .button-default:hover {
+      background: #f1f1f1; }
+  .content-box .page-cart .add-cart-info .tool-btn-box .button-default.blue {
+    background: #0091d2;
+    border: 1px solid #0091d2;
+    color: #fff; }
+    .content-box .page-cart .add-cart-info .tool-btn-box .button-default.blue:hover {
+      background: #0d9dde;
+      border: 1px solid #0d9dde; }
+
+.public-footer .footer-aside .copyright {
+  float: left; }
+
+.public-footer .footer-aside .code {
+  float: right; }
+  .public-footer .footer-aside .code li {
+    float: left;
+    margin-left: 10px; }
+    .public-footer .footer-aside .code li img {
+      width: 75px;
+      height: 75px; }
+    .public-footer .footer-aside .code li .desc {
+      display: block;
+      width: 75px;
+      text-align: center; }

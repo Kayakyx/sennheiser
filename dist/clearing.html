@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>订单结算</title>
+	<link rel="stylesheet" href="css/reset.min.css">
+	<link rel="stylesheet" href="css/common.min.css">
+	<link rel="stylesheet" href="css/clearing.min.css">
+	<script src = 'js/require.js' async="true" defer data-main = 'js/main_clearing.js'></script>
+
+</head>
+<body>
+
+<!-- 头部 -->
+	<div class="public-header">
+		<div class="public-container">
+			<!-- <div class="header-top">
+
+			</div>
+ -->		<div class="header-wrap clearfloat">
+				<div class="header-logo">
+					<a href="index.html"></a>
+				</div>
+
+
+				<ul class="cart-step-box">
+	                <li class="active">购物车<i class="arrow"></i></li>
+	                <li>确认订单<i class="arrow"></i></li>
+	                <li>提交成功<i class="arrow"></i></li>
+	            </ul>
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+<!-- 订单结算内容 -->
+
+	<div class="cart-page-wrap">
+
+		<div class="public-container">
+
+			<aside class="cart-box">
+				<h4 class="cart-top-info" style="" id="LOGIN">
+					现在<a class="color-primary" id="Login" href="login.html" target="_blank">登录</a>您购物车的商品将永久保存
+				</h4>
+
+
+				<div class="cart-table-box">
+	                <table class="cart-table">
+	                    <tbody id="tb">
+	                    	<tr id="first-tr">
+	                    		<th class="first" colspan="2">
+	                    			<span class="line">
+	                    				<label id="checkAll01" class="label-check check">
+	                    					<i class="icon-check"></i>全选
+	                    				</label>
+	                    			</span>商品型号
+	                    		</th>
+	                    		<th>单价</th>
+	                    		<th>数量</th>
+	                    		<th>合计</th>
+	                    		<th>积分</th>
+	                    		<th>操作</th>
+	                    	</tr>
+
+
+<!-- 
+							动态加载
+	                    	<tr id="">
+	                    		<td > 
+	                    			<label class="label-check check" name="check"><i class="icon-check"></i></label>
+	                    		</td>  
+	                    		<td> 
+	                    			<div class="cart-table-product ">  
+	                    				<div class="cart-table-img">
+	                    					<a href="/Product/detail/5315">
+	                    						<img src="http://images.wincheers.net/UpLoad/Web/ProductImg/2018-06-25/NEW_XM/CXS1.png">
+	                    					</a>   
+	                    				</div>
+	                    				<div class="cart-table-name">
+	                    					<a href="/Product/detail/5315">SENNHEISER CX SPORT蓝牙入耳式运动耳机【送adidas钱包 先到先得 】 </a>
+	                    				</div>
+	                    			</div>
+	                    		</td>
+		                    	<td class="price">¥899</td>
+		                    	<td>
+		                    		<div class="cart-table-number">
+
+		                    			<span class="add-product">+</span>
+		                    			<input value="1" disabled="disabled" type="text">
+		                    			<span class="cut-product">-</span>
+		                    			
+		                    		</div>
+		                    	</td>   
+		                    	<td class="a-price">899.00</td> 
+		                    	<td class="point">449</td> 
+		                    	<td>
+		                    		<a class="delete" href="javascript:void(0);" name="899"><i class="icon-delete"></i>删除</a>
+		                    	</td>   
+	                    	</tr>
+
+
+ -->
+
+
+
+
+
+	               		</tbody>
+	                </table>
+	                <!--价格汇总 start-->
+	                <aside class="cart-all-price-box">
+	                    <div class="all-price">
+	                        <p>
+	                        	<!-- <span id="SumPrice">899.00</span> -->
+	                        	<span>商品金额<strong id="PriceCount"></strong></span>
+	                        	<span>积分合计<strong id="SumPoint">活动结束<!-- 449 --></strong><!-- <strong id="Point">449</strong> --></span>
+	                        </p>
+	                    </div>
+	                    <div class="check-price-box">
+	                        <div class="left-tool">
+	                            <label id="checkAll02" class="label-check check"><i class="icon-check"></i>全选</label>
+	                            <a class="tool-a" id="batch-remove" href="javascript:void(0);">批量删除</a>
+	                            <a class="tool-a" id="clear-all" href="javascript:void(0);">清空购物车</a>
+	                        </div>
+	                        <div class="right-tool">
+	                            
+	                            <label>商品金额</label>
+	                            <span class="price big">¥<strong id="Price"></strong></span>
+	                            <a class="sure-btn" id="sure-btn" href="javascript:void(0);">确认结算</a>
+	                        </div>
+	                    </div>
+	                </aside>
+	            </div>
+
+
+
+			</aside>
+
+
+			<!-- 积分兑换榜		 -->
+
+
+			<aside class="point-change-box">
+			    <h4 class="point-change-title">
+				  	<span class="name">积分兑换榜</span>
+				    <div class="right-tool">
+				    	<a class="more color-primary" href="/Product/list?IsPoint=IsPoint">前往积分商城&gt;&gt;</a>
+				    </div>
+			    </h4>
+			    <ul class="point-change-list clearfloat" id="PointProduct">
+
+
+				    <li class="item"> 
+				    	<a href="/Product/Detail/4455">
+						    <div class="img-wrap">
+						    	<img class="img-pic" src="images/jifen-1.png">
+						    </div>
+						    <div class="text-wrap">
+						        <h4 class="name">顺丰包邮卡</h4>
+						        <p class="point">300 积分</p>
+						    </div>
+						</a>
+					</li>
+
+				    <li class="item"> 
+				    	<a href="/Product/Detail/4455">
+						    <div class="img-wrap">
+						    	<img class="img-pic" src="images/jifen-2.png">
+						    </div>
+						    <div class="text-wrap">
+						        <h4 class="name">顺丰包邮卡</h4>
+						        <p class="point">300 积分</p>
+						    </div>
+						</a>
+					</li>
+
+				    <li class="item"> 
+				    	<a href="/Product/Detail/4455">
+						    <div class="img-wrap">
+						    	<img class="img-pic" src="images/jifen-3.png">
+						    </div>
+						    <div class="text-wrap">
+						        <h4 class="name">顺丰包邮卡</h4>
+						        <p class="point">300 积分</p>
+						    </div>
+						</a>
+					</li>
+
+				    <li class="item"> 
+				    	<a href="/Product/Detail/4455">
+						    <div class="img-wrap">
+						    	<img class="img-pic" src="images/jifen-4.png">
+						    </div>
+						    <div class="text-wrap">
+						        <h4 class="name">顺丰包邮卡</h4>
+						        <p class="point">300 积分</p>
+						    </div>
+						</a>
+					</li>
+
+				    <li class="item"> 
+				    	<a href="/Product/Detail/4455">
+						    <div class="img-wrap">
+						    	<img class="img-pic" src="images/jifen-5.png">
+						    </div>
+						    <div class="text-wrap">
+						        <h4 class="name">顺丰包邮卡</h4>
+						        <p class="point">300 积分</p>
+						    </div>
+						</a>
+					</li>
+
+
+
+
+
+			    </ul>
+			</aside>
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+<!-- 尾部 -->
+
+	<div class="public-footer">
+		<div class="footer-aside">
+			<div class="public-container clearfloat">
+				<!-- <div class="footer-logo"><a href=""></a></div> -->
+				<p class="copyright">
+					<a href="">关于Sennheiser</a> | <a href="">帮助中心</a> | <br>
+					森海塞尔中国在线商城由森海塞尔电子(北京)有限公司授权双齐国际贸易（上海）有限公司负责运营管理 <br>
+					2018 , all rights reserved 京ICP备 18017514号 <br>
+					© 2010-2018 , 森海塞尔电子(北京)有限公司. <a href="">京公网安备11010502006893</a>
+				</p>
+
+				<ul class="code">
+					<li>
+						<img src="images/weixin.jpg" alt="二维码">
+						<span class="desc">微信</span>
+					</li>
+					<li>
+						<img src="images/share-weixin-01.jpg" alt="二维码">
+						<span class="desc">官方微信</span>
+					</li>
+					<li>
+						<img src="images/code-weibo.png" alt="二维码">
+						<span class="desc">官方微博</span>
+					</li>
+				</ul>
+
+
+			</div>
+		</div>
+	</div>
+
+
+
+<!-- 弹窗 -->
+
+	<div class="alert-bg"></div>
+
+	<div class="alert" id="alert">
+		<div class="alert-title">
+			<a class="close " href="javascript:;"></a>信息
+		</div>
+		<div class="alert-content"><span class="txt"><!-- 弹窗内容 --></span></div>
+
+		<div class="alert-btn">
+			<a class="alert-btn-a" id="yes">确定</a>
+			<a class="alert-btn-a" id="no">取消</a>
+		</div>
+	</div>
+	
+
+
+	
+</body>
+</html>

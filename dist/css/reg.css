@@ -1,0 +1,239 @@
+@charset "UTF-8";
+.header-wrap {
+  margin-top: 20px; }
+
+.reg-wrap {
+  height: 580px; }
+  .reg-wrap .logo-box {
+    width: 426px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 60px; }
+    .reg-wrap .logo-box .h4-title {
+      padding: 15px 0;
+      font-size: 14px;
+      font-weight: normal; }
+      .reg-wrap .logo-box .h4-title .right-tool {
+        float: right; }
+        .reg-wrap .logo-box .h4-title .right-tool > .color-primary {
+          display: inline;
+          color: #1e96d4; }
+    .reg-wrap .logo-box .form-list > li {
+      position: relative;
+      height: 48px;
+      margin-bottom: 20px; }
+      .reg-wrap .logo-box .form-list > li .item-wrap {
+        position: relative;
+        height: 46px;
+        border: 1px solid #000;
+        overflow: hidden; }
+        .reg-wrap .logo-box .form-list > li .item-wrap > .label-text {
+          position: absolute;
+          left: 0;
+          top: 0;
+          display: block;
+          height: 100%;
+          padding-left: 10px;
+          z-index: 2;
+          line-height: 46px; }
+        .reg-wrap .logo-box .form-list > li .item-wrap .input-text {
+          position: relative;
+          width: 100%;
+          height: 46px;
+          padding-left: 100px;
+          border: 0;
+          z-index: 1; }
+      .reg-wrap .logo-box .form-list > li .yzm-box {
+        float: left;
+        margin-right: 11px;
+        width: 248px; }
+      .reg-wrap .logo-box .form-list > li .yzm-img {
+        float: left;
+        width: 148px;
+        height: 46px;
+        border: 1px solid #000; }
+        .reg-wrap .logo-box .form-list > li .yzm-img > a {
+          height: 100%;
+          font-size: 30px;
+          color: #000;
+          line-height: 46px;
+          text-indent: 10px;
+          letter-spacing: 0px;
+          font-family: "Segoe Script"; }
+      .reg-wrap .logo-box .form-list > li .phone {
+        float: left;
+        width: 302px; }
+      .reg-wrap .logo-box .form-list > li .get-code-btn {
+        float: right;
+        height: 48px;
+        line-height: 48px;
+        text-align: center;
+        width: 122px;
+        background: #000000;
+        color: #fff;
+        font-size: 14px; }
+    .reg-wrap .logo-box .for-list-tool {
+      height: 30px;
+      margin-bottom: 5px; }
+      .reg-wrap .logo-box .for-list-tool > .memory > input {
+        border: 1px solid #000;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 5px;
+        margin-top: -2px; }
+      .reg-wrap .logo-box .for-list-tool > .memory > a {
+        display: inline;
+        color: inherit; }
+        .reg-wrap .logo-box .for-list-tool > .memory > a:hover {
+          text-decoration: underline; }
+    .reg-wrap .logo-box .btn-box {
+      padding-bottom: 15px; }
+      .reg-wrap .logo-box .btn-box > .button-default {
+        margin-bottom: 20px;
+        background: #0091d2;
+        border: 1px solid #0091d2;
+        color: #fff;
+        height: 44px;
+        line-height: 44px;
+        font-size: 14px;
+        text-align: center; }
+        .reg-wrap .logo-box .btn-box > .button-default:hover {
+          background: #0d9dde;
+          border: 1px solid #0d9dde; }
+
+.public-footer .footer-aside .copyright {
+  float: left; }
+
+.public-footer .footer-aside .code {
+  float: right; }
+  .public-footer .footer-aside .code li {
+    float: left;
+    margin-left: 10px; }
+    .public-footer .footer-aside .code li img {
+      width: 75px;
+      height: 75px; }
+    .public-footer .footer-aside .code li .desc {
+      display: block;
+      width: 75px;
+      text-align: center; }
+
+.login-wrap .logo-box .form-list > li > .item-wrap > .input-text {
+  padding-left: 10px; }
+
+.login-wrap .for-list-tool > .forget {
+  display: inline;
+  float: right;
+  color: inherit; }
+
+.login-wrap .btn-box .phone-reg {
+  background: #fff !important;
+  color: #000 !important;
+  border: 1px solid #000 !important; }
+  .login-wrap .btn-box .phone-reg:hover {
+    background: #f1f1f1 !important; }
+
+.login-wrap .other-login #btnWXLogin {
+  display: inline-block;
+  vertical-align: middle; }
+  .login-wrap .other-login #btnWXLogin > .icon-logo-wx {
+    display: inline-block;
+    height: 43px;
+    width: 43px;
+    background: url(../images/login-other-wx.png);
+    transition: all .5s; }
+  .login-wrap .other-login #btnWXLogin:hover > .icon-logo-wx {
+    animation: opacityBg 1s;
+    background: url(../images/login-other-wx-active.png); }
+
+@keyframes opacityBg {
+  0% {
+    opacity: .5; }
+  100% {
+    opacity: 1; } }
+
+.alert-bg {
+  display: none;
+  position: fixed;
+  /* width: 100%;
+			height: 100%; */
+  z-index: 999;
+  background-color: #000;
+  opacity: 0.3;
+  /*会让宽高变成100%*/
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto; }
+
+.alert {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 240px;
+  height: 140px;
+  z-index: 1000;
+  background: #fff; }
+
+.alert .alert-title {
+  height: 35px;
+  line-height: 35px;
+  padding-left: 10px;
+  border-bottom: 1px solid #D5D5D5;
+  font-size: 14px;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background-color: #EAEAEA; }
+
+.alert .alert-title .close {
+  float: right;
+  margin: 10px 10px 0 0;
+  width: 14px;
+  height: 14px;
+  background-image: url(../images/icon.png);
+  background-position: -5px -55px; }
+
+.alert .alert-title .close:hover {
+  background-position: -25px -55px; }
+
+.alert .alert-content {
+  padding: 20px;
+  width: auto;
+  min-height: 24px;
+  line-height: 24px;
+  white-space: nowrap;
+  word-break: break-all;
+  font-size: 14px;
+  /*overflow: auto;*/ }
+
+.alert .alert-content .txt {
+  display: inline-block;
+  min-width: 200px; }
+
+.alert .alert-btn {
+  text-align: center;
+  padding: 0 30px 10px;
+  pointer-events: auto; }
+
+.alert .alert-btn .alert-btn-a {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 8px;
+  padding: 0 20px;
+  background: #5FBFE7;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none; }
+
+.alert .alert-btn .alert-btn-a:hover {
+  opacity: .9;
+  text-decoration: none; }
